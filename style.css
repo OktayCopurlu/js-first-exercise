@@ -12,7 +12,7 @@ div{
 }
 div *{
     margin-top: 1rem;
-    width: 100%;
+    width: 90%;
 }
 #how-many-submit, #input-add,#button-sort{
     text-decoration: none;
@@ -43,6 +43,9 @@ div *{
 label{
     margin-top:3rem;
 }
+label:first-child{
+    margin-top:2rem;
+}
 input{
  
     border-radius:5px;
@@ -67,13 +70,14 @@ input:hover {
 #succeed{
     color: green;
 }
-h3{
+h3,h1{
     margin: 0;
     padding: 1rem 0;
 }
+
 @media screen and (max-width:600px) {
     div{
-        width: 90%;
+        width: 100%;
         max-width:30rem;
     }
 
