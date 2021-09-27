@@ -15,7 +15,7 @@ div *{
     width: 90%;
 }
 div a{
-    width: 99%;
+    width: 92%;
 }
 #how-many-submit, #input-add,#button-sort{
     text-decoration: none;
@@ -83,5 +83,7 @@ h3,h1{
         width: 100%;
         max-width:30rem;
     }
-
+    div a{
+        width: 99%;
+    }
 }
