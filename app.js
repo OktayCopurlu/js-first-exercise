@@ -9,7 +9,7 @@ let addNumber = 0;
 const numbers = [];
 
 howManySubmit.addEventListener("click", function number() {
-  howManyNumbers = document.getElementById("how-many").value;
+  howManyNumbers = document.getElementById("how-many").valueAsNumber;
   document.getElementById("how-many").value = "";
   document.getElementById(
     "how-many-number"
@@ -20,7 +20,7 @@ addButton.addEventListener("click", function exercises() {
   addNumber++;
   const userNumber = document.getElementById("input-number");
   if (addNumber <= howManyNumbers) {
-    numbers.push(userNumber.value);
+    numbers.push(userNumber.valueAsNumber);
     userNumber.value = "";
     information.innerHTML = `You added (${addNumber}) number`;
   } else if (howManyNumbers === null) {
